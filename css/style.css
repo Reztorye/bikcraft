@@ -21,6 +21,9 @@
 /* Seguros */
 @import "./seguros/seguros.css";
 
+/* Termos */
+@import "./termos.css/termos.css";
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--c11);
