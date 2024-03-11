@@ -33,7 +33,7 @@
 
 .orcamento-produto {
   border-radius: 5px 0 0 5px;
-  background-color: var(--c12);
+  background: var(--c12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -169,8 +169,9 @@
     grid-template-columns: 1fr;
   }
 
-  .orcamento-dados {
+  .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--c12);
   }
 
   .orcamento-dados {
